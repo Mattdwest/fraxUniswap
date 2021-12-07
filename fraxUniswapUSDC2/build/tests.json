@@ -1,0 +1,129 @@
+{
+  "contracts": {
+    "OpenZeppelin/openzeppelin-contracts@3.1.0/Address": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "OpenZeppelin/openzeppelin-contracts@3.1.0/Math": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeERC20": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeMath": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "StrategyPoolTogether": "91e2bf63e99b7ddf0544ec2c757772b86c9d3c10"
+  },
+  "tests": {
+    "tests/custom/version0_3_0/liveDAI/test_migration_dai_live.py": {
+      "coverage": false,
+      "isolated": [
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Address",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Math",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeERC20",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeMath",
+        "StrategyPoolTogether"
+      ],
+      "results": ".",
+      "sha1": "42f4648011cacf92c16317b02489bcfbcfc216c5",
+      "txhash": []
+    },
+    "tests/custom/version0_3_0/liveDAI/test_operation_dai_live.py": {
+      "coverage": false,
+      "isolated": [
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Address",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Math",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeERC20",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeMath",
+        "StrategyPoolTogether"
+      ],
+      "results": ".",
+      "sha1": "d6b426a73e01670123ee82ef09fa75ff6ebc713e",
+      "txhash": []
+    },
+    "tests/custom/version0_3_0/liveDAI/test_operation_dai_win_live.py": {
+      "coverage": false,
+      "isolated": [
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Address",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Math",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeERC20",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeMath",
+        "StrategyPoolTogether"
+      ],
+      "results": ".",
+      "sha1": "6bc3357a3044593fd930a9267c079ba1307bb6b4",
+      "txhash": []
+    },
+    "tests/custom/version0_3_0/liveDAI/test_revoke_dai_live.py": {
+      "coverage": false,
+      "isolated": [
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Address",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Math",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeERC20",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeMath",
+        "StrategyPoolTogether"
+      ],
+      "results": ".",
+      "sha1": "316f64abec1ed12fbecfd18306ea8509b121479e",
+      "txhash": []
+    },
+    "tests/custom/version0_3_0/liveDAI/test_shutdown_dai_live.py": {
+      "coverage": false,
+      "isolated": [
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Address",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Math",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeERC20",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeMath",
+        "StrategyPoolTogether"
+      ],
+      "results": ".",
+      "sha1": "f53564c1532f1bf809535fe9bf483a88fbf23743",
+      "txhash": []
+    },
+    "tests/custom/version0_3_0/liveUSDC/test_migration_usdc_live.py": {
+      "coverage": false,
+      "isolated": [
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Address",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Math",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeERC20",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeMath",
+        "StrategyPoolTogether"
+      ],
+      "results": ".",
+      "sha1": "d15f074eda6f9c149d00c39c2ccc9943cc2010d0",
+      "txhash": []
+    },
+    "tests/custom/version0_3_0/liveUSDC/test_operation_usdc_live.py": {
+      "coverage": false,
+      "isolated": [
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Address",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Math",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeERC20",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeMath",
+        "StrategyPoolTogether"
+      ],
+      "results": ".",
+      "sha1": "69cd8871c6d4d5a573350d6a75d4ac5717278077",
+      "txhash": []
+    },
+    "tests/custom/version0_3_0/liveUSDC/test_operation_usdc_win_live.py": {
+      "coverage": false,
+      "isolated": [
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Address",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Math",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeERC20",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeMath",
+        "StrategyPoolTogether"
+      ],
+      "results": ".",
+      "sha1": "1a5b03b8ce558e52250d2632dcc8e14c287f7e85",
+      "txhash": []
+    },
+    "tests/custom/version0_3_0/liveUSDC/test_shutdown_usdc_live.py": {
+      "coverage": false,
+      "isolated": [
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Address",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/Math",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeERC20",
+        "OpenZeppelin/openzeppelin-contracts@3.1.0/SafeMath",
+        "StrategyPoolTogether"
+      ],
+      "results": ".",
+      "sha1": "326496f69fdd395c1afda099fd3aab3fa318974e",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}

@@ -1,0 +1,57 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "claim",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "deposit",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "userStates",
+      "outputs": [
+        {
+          "internalType": "uint128",
+          "name": "lastExchangeRateMantissa",
+          "type": "uint128"
+        },
+        {
+          "internalType": "uint128",
+          "name": "balance",
+          "type": "uint128"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "contractName": "IPoolFaucet",
+  "sha1": "75ee2bd272a856186a506f3f8dda1ae4cb98d62e",
+  "type": "interface"
+}
